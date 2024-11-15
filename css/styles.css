@@ -310,7 +310,7 @@ box-shadow:
   height: 40px;
 }
 
-.team-a{
+.team-link{
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -320,11 +320,11 @@ box-shadow:
   justify-content: center;
 }
 
-.team-a:hover{
+.team-link:hover{
  background-color:  #404bbf;
 }
 
-.team-a:focus{
+.team-link:focus{
   background-color:  #404bbf;
 }
 .div-info{
@@ -341,6 +341,7 @@ box-shadow:
 .team-p {
   font-size: 16px;
   text-align: center;
+  bottom: 8px;
 
 }
 /* portfolio */
