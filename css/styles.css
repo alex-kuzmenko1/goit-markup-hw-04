@@ -287,6 +287,8 @@ h4 {
 .team-item{
 display: flex;
 gap: 24px;
+justify-content: center;
+text-align: center;
 }
 .team-list {
   background-color: #ffffff;
@@ -296,17 +298,16 @@ box-shadow:
   0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
   
 }
-
 .team-icons{
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.team-list-icons{
+.team-icons-list{
+
   width: 40px;
   height: 40px;
-
 }
 
 .team-a{
@@ -318,12 +319,13 @@ box-shadow:
   align-items: center;
   justify-content: center;
 }
-.team-a:hover{
-  background-color: #404bbf;
 
+.team-a:hover{
+ background-color:  #404bbf;
 }
+
 .team-a:focus{
-  background-color: #404bbf;
+  background-color:  #404bbf;
 }
 .div-info{
   padding: 32px 0
@@ -333,6 +335,8 @@ box-shadow:
   text-align: center;
    margin-bottom: 8px
 }
+
+
 
 .team-p {
   font-size: 16px;
