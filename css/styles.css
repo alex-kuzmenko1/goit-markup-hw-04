@@ -458,7 +458,15 @@ h4 {
     margin-bottom: 16px;
 }
 
+.footer-list{
+  display: flex;
+  gap: 24px;
+}
 
+.footer-item{
+  width: 40px;
+  height: 40px;
+}
 
 .footer-link{
   width: 100%;
