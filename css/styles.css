@@ -442,7 +442,11 @@ h4 {
 }
 
 .footer-container{
-  margin-right: 120px
+  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
+
+
 }
 
 .footer-paragraph{
@@ -454,15 +458,7 @@ h4 {
     margin-bottom: 16px;
 }
 
-.footer-icon-list{
-  display: flex;
-  gap: 16px;
-}
 
-.footer-icon-item{
-  width: 40px;
-  height: 40px;
-}
 
 .footer-link{
   width: 100%;
@@ -484,4 +480,8 @@ h4 {
 
 .footer-icon{
   fill: #f4f4fd;
+}
+
+.foot-container{
+  margin-right: 120px;
 }
