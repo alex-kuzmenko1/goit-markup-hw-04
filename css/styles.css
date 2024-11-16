@@ -439,6 +439,7 @@ h4 {
 .footer-icons{
   display: flex;
   align-items: baseline;
+  flex-direction: column;
 }
 
 .footer-container{
@@ -491,6 +492,7 @@ h4 {
 
 .footer-icon{
   fill: #f4f4fd;
+  
 }
 
 .foot-container{
